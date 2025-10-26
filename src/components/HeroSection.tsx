@@ -5,9 +5,9 @@ export const HeroSection: React.FC = () => {
     console.log('Simulate clicked');
   };
   return <section className="w-[687px] h-[295px] shrink-0 absolute left-[311px] top-[299px] max-md:w-[calc(100%_-_40px)] max-md:h-auto max-md:left-5 max-md:top-[150px] max-sm:w-[calc(100%_-_32px)] max-sm:left-4 max-sm:top-[120px]">
-      <h1 className="w-[687px] h-[226px] shrink-0 text-black text-[80px] font-[590] leading-[72px] absolute left-0 top-0 max-md:w-full max-md:text-5xl max-md:h-auto max-md:leading-[48px] max-sm:text-4xl max-sm:leading-[37.8px]">Your journey to effortless investing starts here</h1>
+      <h1 className="w-[687px] shrink-0 text-black text-[80px] font-bold leading-[72px] absolute left-0 top-0 max-md:w-full max-md:text-5xl max-md:leading-[48px] max-sm:text-4xl max-sm:leading-[37.8px]">Your journey to effortless investing starts here</h1>
       
-      <p className="w-[687px] h-[51px] shrink-0 text-black text-xl font-[510] leading-[25.2px] absolute left-0 top-[244px] max-md:w-full max-md:text-lg max-md:h-auto max-md:top-[180px] max-sm:text-base max-sm:top-[200px]">
+      <p className="w-[687px] shrink-0 text-black text-xl font-[510] leading-[25.2px] absolute left-0 top-[260px] max-md:w-full max-md:text-lg max-md:top-[200px] max-sm:text-base max-sm:top-[220px]">
         We help you build wealth confidently, with tools designed for every kind of investor.
       </p>
       
